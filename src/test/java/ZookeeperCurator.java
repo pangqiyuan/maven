@@ -9,14 +9,7 @@ import org.apache.curator.framework.recipes.barriers.DistributedDoubleBarrier;
 import org.apache.curator.framework.recipes.locks.InterProcessLock;
 import org.apache.curator.framework.recipes.locks.InterProcessMutex;
 import org.apache.curator.retry.ExponentialBackoffRetry;
-import org.apache.curator.retry.RetryNTimes;
-import org.apache.zookeeper.CreateMode;
-import sun.security.provider.certpath.DistributionPointFetcher;
-
-import java.util.AbstractMap;
 import java.util.Random;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ZookeeperCurator {
